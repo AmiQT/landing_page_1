@@ -1,12 +1,18 @@
-# Landing Page Project
+# Rumah Tenang - Your Authentic Malaysian Escape
 
 ## Overview
-This project is a simple and elegant landing page designed to showcase a gallery of images and provide a visually appealing hero section. It is built using HTML, CSS, and JavaScript.
+Rumah Tenang is a serene and authentic Malaysian getaway designed to immerse visitors in local culture, nature, and hospitality. This project showcases a landing page for the Rumah Tenang experience, featuring a hero section, gallery, packages, testimonials, and a booking form.
 
 ## Features
-- **Hero Section**: A visually appealing background image.
-- **Image Gallery**: A collection of images displayed in a grid layout.
-- **Responsive Design**: Optimized for various screen sizes.
+- **Navigation Bar**: Provides easy access to sections like "The Experience," "Gallery," "Packages," "Testimonials," and "Booking."
+- **Hero Section**: Highlights the essence of Rumah Tenang with a call-to-action to book a stay.
+- **Experience Section**: Details unique activities such as jungle trekking, traditional cooking classes, and village tours.
+- **Gallery**: Displays beautiful images of Rumah Tenang to entice visitors.
+- **Meet the Hosts**: Introduces the warm and welcoming hosts, Pak Abu and Mak Kiah.
+- **Packages**: Offers various getaway options tailored to different needs (e.g., Weekend Getaway, Family Retreat, Full Experience).
+- **Testimonials**: Shares guest experiences to build trust and credibility.
+- **Booking Form**: Allows visitors to inquire about availability and send messages.
+- **Responsive Design**: Optimized for all devices.
 
 ## Folder Structure
 ```
@@ -37,6 +43,8 @@ landing_page_1/
 - HTML
 - CSS
 - JavaScript
+- Bootstrap
+- AOS (Animate on Scroll)
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
