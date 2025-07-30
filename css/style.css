@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Custom CSS for Rumah Tenang */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+}
+
+.navbar {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-scrolled {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.gallery-img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.page-section {
+    padding: 6rem 0;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 100;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#back-to-top.visible {
+    display: block;
+    opacity: 1;
+}
