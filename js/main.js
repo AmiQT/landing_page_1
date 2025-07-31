@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+    // AOS initialization
+    AOS.init();
+
     // Booking form handler
     const bookingForm = document.getElementById('booking-form');
     if (bookingForm) {
